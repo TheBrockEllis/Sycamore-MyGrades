@@ -1,0 +1,78 @@
+body {
+    max-width: 350px;
+    min-width: 300px;
+    overflow-x: hidden;
+    background-image: url("bg.png");
+    background-repeat: repeat;
+    padding: 10px;
+}
+
+#login {
+    display: block;
+}
+
+#mygrades {
+    display: none;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+h1 > small {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+#submit {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#message {
+    float: right;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    font-size: small;
+}
+
+#mygrade_table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.classname {
+    width: 73%;
+    text-align: left;
+}
+
+.number {
+    width: 10%;
+    text-align: center;
+}
+
+.letter {
+    width: 10%;
+    text-align: center;
+}
+
+.comments {
+    min-width: 7%;
+}
+
+#updated {
+    margin-bottom: 10px;
+}
+
+#logout {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#refresh {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

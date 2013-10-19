@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sycamore - My Grades</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mygrades.css" />
+</head>
+<body>
+    
+    <div id="login">
+        <FORM id="theForm" class="form-inline" role="form" >
+            <h1>Sycamore <small> My Grades</small> </h1>
+            <div class="form-group">
+            <label class="sr-only" for="schoolid">School ID</label>
+            <input type="text" class="form-control" id="schoolid" placeholder="School ID">
+            </div>
+            
+            <div class="form-group">
+            <label class="sr-only" for="username">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Username">
+            </div>
+            
+            <div class="form-group">
+            <label class="sr-only" for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+
+            <input type="submit" id="submit" class='btn btn-primary' value="Login" />
+            <span id="message"></span>
+        </FORM>
+    </div>
+
+    <div id="mygrades">
+        <h1></h1>
+        <table id="mygrade_table">
+            <thead>
+                <th class="classname">Class</th>
+                <th class="number">#</th>
+                <th class="letter">Letter</th>
+                <th class="comments"></th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+        <div id="updated"></div>
+        
+        <button type="button" class='btn btn-mini btn-primary' id="logout">
+            <span class="glyphicon glyphicon-off"></span> Logout
+        </button>
+        
+        <button type="button" class='btn btn-mini btn-info' id="refresh">
+            <span class="glyphicon glyphicon-refresh"></span> Refresh
+        </button>
+
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mygrades.js"></script>
+
+</body>
+</html>
+
